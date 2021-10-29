@@ -51,7 +51,7 @@ client.on('messageCreate', function (message) {
 client.on('messageCreate', function (message) {
     if (message.content === 'good boi bingus') {
         message.reply({
-            content: 'meow'
+            content: 'meow meow'
         });
     }
 });

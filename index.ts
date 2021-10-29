@@ -32,7 +32,7 @@ client.on('messageCreate', (message) => {
 client.on('messageCreate', (message) => {
     if (message.content === 'good boi bingus') {
         message.reply({
-            content: 'meow'
+            content: 'meow meow'
         })
     }
 })
